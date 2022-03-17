@@ -34,7 +34,7 @@ const Welcome = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center dark:bg-gray-800">
+    <div className="flex w-full justify-center items-center dark:bg-gradient-to-r from-gray-700 to-gray-900">
       <div className="flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start flex-col md:mr-10">
           <h1 className="text-3xl sm:text-5xl text-black dark:text-white py-1">
@@ -110,7 +110,6 @@ const Welcome = () => {
                 Send Now
               </button>
             )}
-
           </div>
         </div>
       </div>

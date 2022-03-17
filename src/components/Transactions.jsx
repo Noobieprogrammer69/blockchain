@@ -50,8 +50,8 @@ const Transactions = () => {
   const { currentAccount, transactions } = useContext(TransactionContext);
 
   return (
-    <div className='flex w-full dark:bg-gray-800 justify-center dark:text-white items-center 2xl:px-20 gradient-bg-welcome'>
-      <div className='flex flex-col dark:bg-gray-800 md:p-12 py-12 px-4'>
+    <div className='flex w-full justify-center dark:text-white items-center 2xl:px-20 gradient-bg-welcome dark:bg-gradient-to-r from-gray-700 to-gray-900'>
+      <div className='flex flex-col dark:bg-gradient-to-r from-gray-700 to-gray-900 md:p-12 py-12 px-4'>
         {currentAccount ? (
           <h3 className='text-black text-3xl dark:text-white text-center my-2'>Latest Transactions.</h3>
         ) : (

@@ -16,7 +16,7 @@ const Navbar = ({ setDarkTheme, darkTheme }) => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className='w-full flex md:justify-center justify-between items-center dark:bg-gray-800 p-4'>
+    <nav className='w-full flex md:justify-center justify-between items-center dark:bg-gradient-to-r from-gray-700 to-gray-900 p-4'>
       <div className='md:flex-[0.5] flex-initial justify-center items-center'>
         <img src={logo} alt="logo" className='w-32 cursor-pointer' />
       </div>

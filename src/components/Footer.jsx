@@ -3,7 +3,7 @@ import logo from '../../images/logo.png';
 
 const Footer = () => {
   return (
-    <div className='w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-welcome dark:gradient-bg-footer'>
+    <div className='w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-welcome dark:bg-gradient-to-r from-gray-700 to-gray-900'>
       <div className='w-full flex sm:flex-row flex-col justify-between items-center my-4'>
         <div className='flex flex-[0.5] w-full justify-center items-center'>
           <img src={logo} alt="logo" className='w-32' />

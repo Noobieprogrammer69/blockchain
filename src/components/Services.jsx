@@ -17,16 +17,16 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 
 const Services = () => {
   return (
-    <div className='flex dark:bg-gray-800 flex-col md:flex-row w-full justify-center items-center gradient-bg-welcome'>
-      <div className='flex dark:bg-gray-800 md:flex-row flex-col items-center justify-between md:p-32 md:py-19 py-12 px-16'>
+    <div className='flex w-full justify-center items-center gradient-bg-welcome dark:bg-gradient-to-r from-gray-700 to-gray-900'>
+      <div className='flex dark:bg-gradient-to-r from-gray-700 to-gray-900 md:flex-row flex-col items-center justify-between md:p-32 md:py-19 py-12 px-16'>
         <div className='flex-1 flex flex-col justify-start items-center'>
-          <h1 className='text-black dark:text-white text-3xl sm:text-5xl dark:bg-gray-800 p-6'>Services that we
+          <h1 className='text-black dark:text-white text-3xl sm:text-5xl dark:bg-gradient-to-r from-gray-700 to-gray-900 p-6'>Services that we
             <br />
             continue to improve
           </h1>
         </div>
       </div>
-      <div className='flex-1 flex dark:bg-gray-800 flex-col justify-start items-center'>
+      <div className='flex-1 flex dark:bg-gradient-to-r from-gray-800 to-gray-900 flex-col justify-start items-center'>
         <ServiceCard
           color="bg-[#2952E3]"
           title="Security Guaranteed"
